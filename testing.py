@@ -4,7 +4,7 @@ from code import calculate
 def test(a,b,c):
     d = calculate(a,b,c)
 
-    test_d = a * b * c
+    test_d = -(a * b * c)
 
     assert d==test_d
 
